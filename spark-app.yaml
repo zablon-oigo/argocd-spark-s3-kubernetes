@@ -29,6 +29,11 @@ spec:
       app: "data-processing"
 
     env:
+      - name: S3_BUCKET
+        valueFrom:
+          configMapKeyRef:
+            name: s3-config
+            key: S3_BUCKET
       - name: AWS_ACCESS_KEY_ID
         valueFrom:
           secretKeyRef:
