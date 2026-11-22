@@ -19,6 +19,8 @@ The deployment also incorporates Docker for application packaging, Helm for Spar
 
 ### Architecture
 
+<img width="1141" height="359" alt="spark excalidraw" src="https://github.com/user-attachments/assets/1f245051-bee9-445e-9a4f-f88e29d832d8" />
+
 
 #### 1. Install the Spark Operator
 
@@ -213,3 +215,5 @@ Argo CD CLI login:
 ```sh
 argocd login localhost:8080 --insecure
 ```
+<img width="1309" height="429" alt="image3" src="https://github.com/user-attachments/assets/d28081f0-2c97-4be1-839f-f74054f1fc86" />
+
